@@ -8,9 +8,9 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
-import { ToolbarModule } from 'primeng/toolbar';
-import { AvatarModule } from 'primeng/avatar';
-import { SharedModule } from 'primeng/api';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 
@@ -25,7 +25,9 @@ import { SharedModule } from 'primeng/api';
     AppRoutingModule,
     MatSlideToggleModule,
     MatButtonModule,
-    ToolbarModule, AvatarModule, SharedModule
+    MatIconModule,
+    MatToolbarModule
+
   ],
   providers: [
     provideClientHydration()
