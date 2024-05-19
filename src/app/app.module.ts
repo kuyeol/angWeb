@@ -8,9 +8,6 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 
@@ -23,11 +20,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule,
-    MatButtonModule,
-    MatIconModule,
-    MatToolbarModule
-
+    MatSlideToggleModule
   ],
   providers: [
     provideClientHydration()
