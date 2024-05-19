@@ -11,5 +11,5 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [MatToolbarModule, MatButtonModule, MatIconModule]
 })
 export class AppComponent {
-  title = '[ㅡㅡ ]';
+  title = '[helllooowww ]';
 }
