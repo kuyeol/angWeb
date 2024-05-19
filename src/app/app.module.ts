@@ -8,6 +8,11 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
+import { ToolbarModule } from 'primeng/toolbar';
+import { AvatarModule } from 'primeng/avatar';
+import { SharedModule } from 'primeng/api';
+
+
 
 
 @NgModule({
@@ -19,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserModule,
     AppRoutingModule,
     MatSlideToggleModule,
-    MatButtonModule
+    MatButtonModule,
+    ToolbarModule, AvatarModule, SharedModule
   ],
   providers: [
     provideClientHydration()
