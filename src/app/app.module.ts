@@ -5,6 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +17,8 @@ import { HeroesComponent } from './heroes/heroes.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule
   ],
   providers: [
     provideClientHydration()
