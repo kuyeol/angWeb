@@ -7,7 +7,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -18,7 +18,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatButtonModule
   ],
   providers: [
     provideClientHydration()
